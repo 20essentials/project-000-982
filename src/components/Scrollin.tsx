@@ -59,7 +59,7 @@ export function Scrollin() {
 
   const items = Array.from({ length: 25 }, (_, i) => (
     <div key={i} className={`item item${i + 1}`}>
-      <img src={withBase(`assets/u${i + 1}.avif`)} alt="Image" />
+      <img draggable="false" src={withBase(`assets/u${i + 1}.avif`)} alt="Image" />
     </div>
   ));
 

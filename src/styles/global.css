@@ -21,6 +21,7 @@
   font-family: 'Roboto', sans-serif, system-ui, -apple-system, 'Segoe UI',
     Cantarell, 'Open Sans', 'Helvetica Neue';
   font-size: 1vmax;
+  -webkit-tap-highlight-color: transparent;
 }
 
 h1,
@@ -36,7 +37,6 @@ h6 {
 a,
 button,
 img {
-  -webkit-tap-highlight-color: transparent;
   user-select: none;
 }
 
